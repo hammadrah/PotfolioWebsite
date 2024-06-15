@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+
+}
+.Navbar {
+    background-color:#050708;
+    color:white;
+    display: flex; 
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Nav-logo {
+height: 50px;
+width: 100px;
+padding: 0;
+padding-left: 10px;
+cursor: pointer;
+display: flex;
+}
+
+
+.logo {
+    background-image: url(/Images/Amazon-Logo-31\ \(1\).png);
+    height: 80%;
+    width:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: static;
+}
+
+.border { 
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.border:hover {
+    border: 2px solid white;
+}
+/**Box2**/
+.Nav-Adress {
+    padding: 0;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+.Add-First {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.Add-Second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.Add-Icon {
+    display: flex;
+}
+/**box3**/
+.Nav-Search {
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    width: 620px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Search-Select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.search-Input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.search-icon {
+    display: flex;
+    width: 45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.Nav-Search:hover {
+ border: 2px solid  #febd68 ;
+}
+.language-box {
+    display: flex;
+    padding: 0;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.Flag {
+    background-image: url(/Images/flag.jpg);
+    display: flex;
+    height: 28px;
+    width: 40px;
+    background-size:contain;
+    background-repeat:no-repeat ;
+    margin: 0;
+    padding: 0;
+}
+
+.select2 {
+    height: 28px;
+    width: 45px;
+    display: flex;
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+}
+/**box 5**/
+span {
+    font-size: 0.7rem;
+padding: 1px 1px 1px 1px;
+}
+.nav-second { 
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 2px 2px 2px 2px;
+}
+/**box6**/
+.Nav-Cart i {
+    font-size: 35px;
+}
+.Nav-Cart {
+    font-size: 0.85rem;
+    padding: 2px 2px 2px 2px;
+    font-weight: 700;
+}
+/**Navbar done here**/
+.Panel-All {
+    background-color: #232F3E;
+    height: 40px;
+    color: white;
+    align-items: center;
+    display: flex;
+
+}
+
+.container-Bar {
+ display: flex;
+ margin-left: 20px;
+ padding: 4px 4px 4px 4px;
+} 
+.fa-solid {
+    font-size: 1.3rem;
+}
+.All {
+    align-items: center;
+    margin-left: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.option-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.Todays-deal {
+    padding: 4px 4px 4px 4px;
+}
+.Customer-Service {
+    padding: 4px 4px 4px 4px;
+}
+.Registry {
+    padding: 4px 4px 4px 4px;
+}
+.Gift-Cards {
+    padding: 4px 4px 4px 4px;
+}
+.sell {
+    padding: 4px 4px 4px 4px;
+}
+.container33 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 30%;
+    padding-right: 10px;
+}
+.Shop-deals {
+    padding: 4px 4px 4px 4px;
+}
+
+/***Hero-Section***/
+.Hero-section {
+    background-image: url("/Images/61CiqVTRBEL._SX3000_.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    font-size: 1.3rem;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.Hero-message a {
+    color: #007185;
+    text-decoration: none;
+}
+/***shopsection***/
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    height: 500px;
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 40px;
+}
+.Box1-image {
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Box2-image {
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Box3-image {
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imagesbox {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.imagebox2 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.Box4-image {
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Box5-image {
+    height: 100px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Box2-image p {
+    position: absolute;
+    top: 100px;    
+}
+.Box3-image p {
+    position: absolute;
+    top: 100px;    
+}
+
+.Box4-image p {
+    position: absolute;
+    top: 100px;    
+}
+.Box5-image p {
+    position: absolute;
+    top: 100px;    
+}
+.see-more {
+    top: 40px;
+}
+.Hero-message-see-more {
+    top: 30px;
+}
+.box4newformat {
+    height: 110px;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.Image-boxnew {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1new {
+ height: 80px;
+ background-size: contain;
+ width: 100px;
+ background-repeat: no-repeat;
+ margin-top: 30px;
+ margin-left: 5px;
+}
+.image2new {
+    height: 80px;
+    background-size: contain;
+    width: 100px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 5px;
+   }
+   .image3new {
+    height: 80px;
+    background-size: contain;
+    width: 100px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 5px;   
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+
+}
+.name2 {
+    margin-left: 10px;
+}
+.name3 {
+    margin-right:65px ;
+}
+/**Sign in starting**/
+.signinbox {
+    border: 0.1px solid rgb(182, 175, 175);
+}
+.signboxmain {
+    width: 228px;
+    color: black;
+    font-weight: 700;
+    background-color: #f7cc60;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.signinboxcover {
+    background-color: #fcc02b ;
+    height: 28px;
+    width: 230px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.signboxmain p {
+    display: flex;
+    top: 7px;
+    justify-content: center;
+}
+.signinboxborder {
+    border: 1px solid #f5b71c;
+    height: 28px;
+    width: 230px;
+    border: 4px;
+}
+.P1 {
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.P2 {
+    font-size: 13px;
+    display: flex;
+    left: 50px;
+}
+.Start {
+    font-size: 13px;
+    text-decoration: none;
+}
+.signinoption {
+    border: 1px solid rgb(197, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+/***Footer Starting***/
+.Backtotop {
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.back-to-top1 :hover {
+    background-color: #48505a;
+}
+.Info-section-in-footer {
+    height: 400px;
+    background-color: #232F3E;
+}
+.Head {
+    font-weight: 700;
+}
+.Info-section-in-footer {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    line-height: 2;
+    font-size: 18px;
+    padding-top: 40px;
+ 
+}
+.normaltext {
+    color: rgb(175, 174, 174);
+}
+.infobox {
+    cursor: pointer;
+}
+.lastoptionbox {
+    background-color: #232F3E;
+    height: 100px;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+}
+.footerlogo {
+    height: 60px;
+    width: 110px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 100px;
+}
+.lastoptionsboxcontent {
+    display: flex;
+}
+.language-box-footer {
+    display: flex;
+    width: 50px;
+    height: 20px;
+
+}
+.languageboxborder {
+    display: flex;
+    color: rgb(182, 182, 182);
+    border: 1px solid rgb(182, 182, 182);
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.language-box-footer {
+    left: 20px;
+}
+.selectnew {
+    background-color:#232F3E;
+    border: none;
+    color:rgb(182, 182, 182);
+}
+.fa-solid {
+    color: white;
+}
+.Dollar {
+    color: white;
+}
+.languageboxbordertwo {
+    display: flex;
+    color: rgb(182, 182, 182);
+    border: 1px solid rgb(182, 182, 182);
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.languageboxborder-flag {
+    display: flex;
+    color: rgb(192, 191, 191);
+    border: 1px solid rgb(182, 182, 182);
+    height: 30px;
+    width: 130px;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+.Languageboxprime {
+    background-repeat: no-repeat;
+}
+
+.Pakistanname {
+    left: 40px;
+}
+.lastoptionsboxcontent {
+    display: flex;
+
+}
+.lastpartoffooter {
+    height: 130px;
+    background-color: #131a22;
+    color: rgb(192, 191, 191);
+    display: flex;
+    justify-content: space-around;
+}
+.secondlastthing {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.headpart {
+        color: white;
+        font-weight: 500;
+        font-size: large;
+}
+.secondlastthingg {
+    margin-top: 30px;
+    font-size: 1rem;
+    left: -36px;
+}
+.secondlastthinggg {
+    margin-top: 30px;
+    font-size: 1rem;
+    left: -30px;
+}
+.secondlastthingggg {
+    margin-top: 30px;
+    font-size: 1rem;
+    left: -40px;
+}
+.secondlastthinggggg {
+    margin-top: 30px;
+    font-size: 1rem;
+    left: -20px;
+}
+.secondlastthingggggg {
+    margin-top: 30px;
+    font-size: 1rem;
+    left: -10px;
+}
+.secondlastthinggggggg {
+    margin-top: 30px;
+    font-size: 1rem;
+    left: -5px;
+
+}
+.secondlastthingggggggg {
+    left: -40px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.secondlastthinggggggggg {
+    left: -50px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+.lastpartiswear {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background-color:#131a22;
+    color: rgb(209, 209, 209);
+    padding-top: 80px;
+    font-size: small;
+}
+.P11 {
+    right: 80px;
+}
+.P22 {
+    right: 60px;
+}
+.P33 {
+    right: 40px;
+}
+.P44 {
+    right: 20px;
+}
+.lastpartiswearparttwo {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:#131a22;
+    color: rgb(209, 209, 209);
+    font-size: small;
+}
+.P112 {
+    Left: -30px;
+}
