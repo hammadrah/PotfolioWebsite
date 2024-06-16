@@ -205,7 +205,7 @@ padding: 1px 1px 1px 1px;
 
 /***Hero-Section***/
 .Hero-section {
-    background-image: url("/Images/61CiqVTRBEL._SX3000_.jpg");
+    background-image: url("/Images/MainImage.jpg");
     height: 400px;
     background-size: cover;
     display: flex;
@@ -243,6 +243,7 @@ padding: 1px 1px 1px 1px;
     margin-top: 40px;
 }
 .Box1-image {
+    background-image: url(Images/CPU.jpg);
     height: 230px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -254,12 +255,14 @@ padding: 1px 1px 1px 1px;
     margin-right: 10px;
 }
 .Box2-image {
+    background-image: url(/Images/Box1image1.jpg);
     height: 100px;
     width: 140px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .Box3-image {
+    background-image: url(/Images/Box1image2.jpg);
     height: 100px;
     width: 140px;
     background-repeat: no-repeat;
@@ -276,12 +279,14 @@ padding: 1px 1px 1px 1px;
     justify-content: space-around;
 }
 .Box4-image {
+    background-image: url(/Images/Box1image3.jpg);
     height: 100px;
     width: 140px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .Box5-image {
+    background-image: url(/Images/Box1image4.jpg);
     height: 100px;
     width: 140px;
     background-repeat: no-repeat;
