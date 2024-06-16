@@ -71,7 +71,7 @@ display: flex;
     cursor: pointer;
 }
 
-.Search-Select {
+.Search-Selection {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -493,6 +493,7 @@ padding: 1px 1px 1px 1px;
     background-color:#232F3E;
     border: none;
     color:rgb(182, 182, 182);
+    right: 10px;
 }
 .fa-solid {
     color: white;
